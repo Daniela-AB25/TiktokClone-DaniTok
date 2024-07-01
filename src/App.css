@@ -4,13 +4,14 @@
   color: white;
   display: grid;
   place-content: center;
+  overflow: hidden;
 }
 
 main {
   aspect-ratio: 9/16;
   border-radius: 3px;
-  overflow-y: scroll;
-  max-width: 375px;
   width: 100vw;
   display: block;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
 }
